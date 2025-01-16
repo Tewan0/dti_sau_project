@@ -10,6 +10,8 @@ class signupUI extends StatefulWidget {
 class _signupUIState extends State<signupUI> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.pink,
+    );
   }
 }

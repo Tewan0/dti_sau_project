@@ -145,6 +145,7 @@ class _loginUIState extends State<loginUI> {
                   ),
                 ),
                 style: OutlinedButton.styleFrom(
+                  backgroundColor: Colors.white,
                   fixedSize: Size(
                     MediaQuery.of(context).size.width * 1,
                     MediaQuery.of(context).size.height * 0.05,

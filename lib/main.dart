@@ -1,6 +1,7 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, unused_import
 
 import 'package:dti_sau_project/views/login_ui.dart';
+import 'package:dti_sau_project/views/signup_ui.dart';
 import 'package:dti_sau_project/views/welcome_ui.dart';
 import 'package:flutter/material.dart';
 
@@ -24,7 +25,7 @@ class _DtiSauState extends State<DtiSau> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: loginUI(), //เรียกหน้าจอแรก
+      home: welcomeUI(), //เรียกหน้าจอแรก
     );
   }
 }
